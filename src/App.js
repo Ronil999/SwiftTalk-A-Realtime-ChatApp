@@ -34,7 +34,7 @@ function App() {
           />
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
-          <Route path="/room" element={<Call/>}/>
+          {/* <Route path="/room" element={<Call/>}/> */}
           <Route path="/room/:roomId" element={<Videocall/>}/>
         </Route>
       </Routes>

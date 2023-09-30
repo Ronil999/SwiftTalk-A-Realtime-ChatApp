@@ -13,6 +13,7 @@ const Call = () => {
     }
    
 return (
+    
     <div className='w-1/2 mx-auto text-center'>
         <h1 className='text-3xl font-semibold mt-4'>Video Calling App</h1>
         <form onSubmit={handleFormSubmit}>
@@ -25,6 +26,7 @@ return (
             </div>
         </form>
     </div>
+    
 );
 };
 
