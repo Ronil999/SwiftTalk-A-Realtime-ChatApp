@@ -3,9 +3,10 @@ import Cam from "../img/cam.png";
 import Add from "../img/add.png";
 import More from "../img/more.png";
 import Messages from "./Messages";
+import download from "../img/download.png"
 import Input from "./Input";
 import { ChatContext } from "../context/ChatContext";
-import { useNavigate } from "react-router-dom";
+import { useNavigate ,Link} from "react-router-dom";
 
 const Chat = () => {
   const { data } = useContext(ChatContext);
@@ -25,6 +26,7 @@ const Chat = () => {
           <img src={Cam} onClick={showAlert} alt=""/>
           <img src={Add} alt="" />
           <img src={More} alt="" />
+          <Link to='/download'><img src={download} alt="" /></Link>
         </div>
       </div>
       <Messages />

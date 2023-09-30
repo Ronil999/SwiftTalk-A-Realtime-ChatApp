@@ -8,6 +8,7 @@ import { AuthContext } from "./context/AuthContext";
 import Videocall from "./components/Videocall";
 // import Room from "./components/Videocall";
 import Call from "./components/Call";
+import Download from "./components/Download";
 
 function App() {
   const { currentUser } = useContext(AuthContext);
@@ -36,6 +37,7 @@ function App() {
           <Route path="register" element={<Register />} />
           {/* <Route path="/room" element={<Call/>}/> */}
           <Route path="/room/:roomId" element={<Videocall/>}/>
+          <Route path="/download" element={<Download/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
