@@ -20,6 +20,7 @@ const Videocall = () => {
             zp.joinRoom({
                 container: element,
                 // showPreJoinView: false ,
+                maxUsers: 2,
                 sharedLinks: [
                     {
                         name: 'Copy Link',
