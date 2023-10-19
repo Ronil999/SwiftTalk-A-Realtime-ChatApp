@@ -6,8 +6,6 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "./context/AuthContext";
 import Videocall from "./components/Videocall";
-// import Room from "./components/Videocall";
-import Call from "./components/Call";
 import Download from "./components/Download";
 
 function App() {
