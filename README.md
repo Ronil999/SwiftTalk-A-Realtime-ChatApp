@@ -1,1 +1,1 @@
-# SwiftTalk
+# SwiftTalk - A Realtime ChatApp
