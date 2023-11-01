@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams} from 'react-router-dom';
 import { ZegoUIKitPrebuilt } from "@zegocloud/zego-uikit-prebuilt"
 import { AuthContext } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
